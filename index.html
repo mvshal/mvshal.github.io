@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#03060f">
+  <title>Vishal M — Portfolio</title>
+  <meta name="description" content="Vishal M, Software Engineer in Bengaluru, India. Ring the bell of an interactive 3D cottage and get a guided tour of education, projects, hobbies and achievements.">
+  <link rel="canonical" href="https://mvshal.github.io/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <!-- link previews (LinkedIn, WhatsApp, X, Slack…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mvshal.github.io/">
+  <meta property="og:title" content="Vishal M — Portfolio">
+  <meta property="og:description" content="Ring the bell of an interactive 3D cottage and get a guided tour, room by room.">
+  <meta property="og:image" content="https://mvshal.github.io/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A cozy house at dusk with warm light glowing from its windows and porch lamp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vishal M",
+    "jobTitle": "Software Engineer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Bengaluru", "addressCountry": "IN" },
+    "email": "mailto:summonvishal@gmail.com",
+    "url": "https://mvshal.github.io/",
+    "sameAs": ["https://github.com/mvshal"]
+  }
+  </script>
+
+  <!-- Loading screen: plain HTML/CSS so it shows before any JavaScript
+       arrives. Only the how-to-play card under the visitor's own sky, so the
+       house is first seen when it fades in (see src/loader.ts). -->
+  <link rel="preload" href="./fonts/mplus-rounded-800.woff2" as="font" type="font/woff2" crossorigin>
+  <style>@font-face{font-family:"M PLUS Rounded 1c";font-weight:800;font-display:swap;src:url(./fonts/mplus-rounded-800.woff2)format("woff2")}#loader,#loader *{box-sizing:border-box}#loader{--sky:linear-gradient(#141a3a, #2a3466 70%, #3a4478);--text:#fbf3e4;z-index:10;background:var(--sky);color:var(--text);flex-direction:column;justify-content:center;align-items:center;gap:18px;font:800 15px/1.5 "M PLUS Rounded 1c",Arial Rounded MT Bold,-apple-system,Segoe UI,sans-serif;transition:opacity .7s .35s;display:flex;position:fixed;inset:0;overflow:hidden}#loader.day{--sky:linear-gradient(#3f8ee8, #8ec5e8 60%, #bfe3ff);--text:#fff}#loader.done{opacity:0;pointer-events:none}#loader .star{width:2px;height:2px;animation:twinkle var(--d,3s) ease-in-out infinite var(--delay,0s);background:#fff;border-radius:50%;position:absolute}#loader .cloud{background:#fffc;border-radius:34px;width:120px;height:34px;animation:60s linear infinite drift;display:none;position:absolute}#loader .cloud:before,#loader .cloud:after{content:"";background:inherit;border-radius:50%;position:absolute}#loader .cloud:before{width:54px;height:54px;top:-26px;left:18px}#loader .cloud:after{width:40px;height:40px;top:-18px;left:60px}#loader.day .cloud{display:block}#loader.day .star{display:none}#loader .card{z-index:1;text-align:center;color:#4a3426;background:linear-gradient(#fbf3e4,#f3e3c4);border:3px solid #5a3a24;border-radius:18px;width:min(88vw,400px);margin:0;padding:14px 18px 12px;position:relative;box-shadow:inset 0 0 0 3px #ffffff8c,0 5px #5a3a2473,0 14px 28px #140c064d}#loader .bar{background:#e8d5b0;border:2.5px solid #5a3a24;border-radius:10px;height:18px;margin:14px 0 4px;position:relative;overflow:hidden}#loader .fill{background:repeating-linear-gradient(-45deg,#f29a80 0 10px,#e07a5f 10px 20px) 0 0/28px 28px;border-radius:7px;width:4%;transition:width .35s;animation:.8s linear infinite stripes;position:absolute;inset:0 auto 0 0}#loader .status{color:#8a6a4e;justify-content:space-between;font-size:.72rem;display:flex}#loader .tips{height:4.2em;margin-top:10px;position:relative}#loader .tip{opacity:0;justify-content:center;align-items:center;gap:10px;font-size:.92rem;line-height:1.35;transition:opacity .4s,transform .4s;display:flex;position:absolute;inset:0;transform:translateY(6px)}#loader .tip.on{opacity:1;transform:none}#loader .tip-icon{flex:none;gap:3px;display:flex}#loader kbd,#loader .icon{min-width:26px;height:26px;font:inherit;color:#4a3426;background:#fbf3e4;border:2px solid #5a3a24;border-radius:7px;place-items:center;padding:0 5px;font-size:.78rem;display:inline-grid;box-shadow:0 2px #5a3a2473}#loader .icon{color:#fff;background:#5f9ea0;font-size:.9rem}#loader .dots{justify-content:center;gap:6px;margin-top:6px;display:flex}#loader .dots i{background:#e0cfae;border:1.5px solid #5a3a24;border-radius:50%;width:7px;height:7px;transition:background .3s}#loader .dots i.on{background:#e07a5f}#loader .sr{clip-path:inset(50%);width:1px;height:1px;position:absolute;overflow:hidden}#loader.done .card{opacity:0;transition:all .4s;transform:translateY(12px)}@keyframes twinkle{50%{opacity:.25}}@keyframes drift{0%{transform:translate(-20vw)}to{transform:translate(120vw)}}@keyframes stripes{to{background-position:28px 0}}@media (prefers-reduced-motion:reduce){#loader *,#loader :before,#loader :after{transition:none!important;animation:none!important}}</style>
+  <script type="module" crossorigin src="./assets/index-NMDUBzjY.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C0mNeGjT.css">
+</head>
+<body>
+  <div id="loader" role="status">
+    <span class="sr">Loading the portfolio…</span>
+    <div class="cloud" style="top: 14%; animation-delay: -12s" aria-hidden="true"></div>
+    <div class="cloud" style="top: 24%; width: 90px; animation-delay: -44s" aria-hidden="true"></div>
+    <div class="card" aria-hidden="true">
+      <div class="bar"><i class="fill" id="loader-fill"></i></div>
+      <div class="status"><span id="loader-step">Getting ready…</span><span id="loader-pct">0%</span></div>
+      <div class="tips" id="loader-tips"></div>
+      <div class="dots" id="loader-dots"></div>
+    </div>
+  </div>
+  <script>
+    // match the loading screen to the visitor's sky (or the ?time= preview),
+    // and scatter a few twinkling stars at night
+    (function () {
+      var loader = document.getElementById('loader')
+      var t = new URLSearchParams(location.search).get('time')
+      var h = t ? parseFloat(t) : new Date().getHours()
+
+      // how to play, while it loads: for a touch screen or a keyboard and mouse
+      var touch = matchMedia('(pointer: coarse)').matches
+      var k = function (x) { return '<kbd>' + x + '</kbd>' }
+      var em = function (x) { return '<span class="icon">' + x + '</span>' }
+      var tips = touch
+        ? [[ em('◎'), 'Use the <b>joystick</b> to walk around' ],
+           [ em('☝'), '<b>Drag</b> anywhere to look around' ],
+           [ em('✦'), '<b>Tap</b> things that glow to use them' ],
+           [ em('💬'), '<b>Tap</b> to keep a conversation going' ]]
+        : [[ k('W') + k('A') + k('S') + k('D'), 'Walk around with <b>WASD</b> or the arrow keys' ],
+           [ em('🖱'), '<b>Drag</b> with the mouse to look around' ],
+           [ k('E'), 'Press <b>E</b> to use things that glow' ],
+           [ k('Enter'), 'Press <b>Enter</b> to keep a conversation going' ]]
+      // then, for a longer wait, things to look forward to inside
+      tips = tips.concat([
+        [ em('🔔'), 'Ring the <b>doorbell</b> and Vishal comes to the door' ],
+        [ em('🗺'), 'Take the <b>tour</b> and Vishal shows you around' ],
+        [ em('🏓'), 'Challenge Vishal to <b>Pong</b> on the den TV' ],
+        [ em('👋'), 'Exploring alone? Find Vishal <b>upstairs</b> and say hi' ],
+        [ em('🖼'), 'Every <b>frame</b> on the walls tells part of his story' ],
+        [ em('🌙'), 'The house follows <b>your clock</b>. Visit at night too!' ]])
+      var box = document.getElementById('loader-tips')
+      var dots = document.getElementById('loader-dots')
+      tips.forEach(function (tip, i) {
+        box.insertAdjacentHTML('beforeend', '<div class="tip' + (i ? '' : ' on') + '"><span class="tip-icon">' + tip[0] + '</span><span>' + tip[1] + '</span></div>')
+        dots.insertAdjacentHTML('beforeend', '<i' + (i ? '' : ' class="on"') + '></i>')
+      })
+      var at = 0
+      setInterval(function () {
+        box.children[at].classList.remove('on'); dots.children[at].classList.remove('on')
+        at = (at + 1) % tips.length
+        box.children[at].classList.add('on'); dots.children[at].classList.add('on')
+      }, 2600)
+
+      if (h >= 7 && h < 18) return void (loader.className = 'day')
+      for (var i = 0; i < 70; i++) {
+        var s = document.createElement('i')
+        s.className = 'star'
+        s.style.left = Math.random() * 100 + '%'
+        s.style.top = Math.random() * 62 + '%'
+        s.style.setProperty('--d', 2 + Math.random() * 3 + 's')
+        s.style.setProperty('--delay', -Math.random() * 5 + 's')
+        if (Math.random() < .15) s.style.width = s.style.height = '3px'
+        loader.prepend(s)
+      }
+    })()
+  </script>
+
+  <div id="root"></div>
+  <noscript>
+    <style>#loader{display:none}</style>
+    <p>This portfolio needs JavaScript for the 3D tour.
+       Contact: <a href="mailto:summonvishal@gmail.com">summonvishal@gmail.com</a> ·
+       <a href="https://github.com/mvshal">GitHub</a></p>
+  </noscript>
+</body>
+</html>
